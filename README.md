@@ -1,12 +1,17 @@
-# React + Vite
+# GitHub API Fetcher - ReactJS + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto utiliza a API do GitHub para buscar informações sobre repositórios e perfis. Desenvolvido em **ReactJS** com **Vite**, ele faz requisições para a API do GitHub usando a função `fetch` para obter dados sobre perfis e repositórios públicos.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Busca de repositórios**: Permite pesquisar repositórios públicos no GitHub.
+- **Busca de perfis**: Permite consultar informações de perfis de usuários no GitHub.
+- **Integração com a API do GitHub**: Utiliza a API RESTful do GitHub para fazer requisições e exibir dados em tempo real.
+- **Interface Responsiva**: A interface é simples e responsiva, adaptando-se a diferentes tamanhos de tela.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **ReactJS**: Biblioteca JavaScript para construção da interface de usuário.
+- **Vite**: Ferramenta de build e desenvolvimento otimizada para React.
+- **fetch**: Função nativa do JavaScript para realizar requisições HTTP assíncronas.
+- **GitHub API**: API pública do GitHub utilizada para buscar informações sobre repositórios e perfis.
