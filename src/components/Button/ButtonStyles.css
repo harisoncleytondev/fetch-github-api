@@ -1,0 +1,17 @@
+button {
+  padding: 8px 80px;
+  text-transform: uppercase;
+  background-color: #2f2f2f;
+  color: white;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  transition: scale 110ms ease;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  
+   &:hover {
+     scale: 110%;
+   }
+}
