@@ -110,8 +110,10 @@ export default function Result() {
           <div className="container_repository">
             <Repositories>
               {
-                jsonRepo.map((repo) => {
+                jsonRepo.length > 0 ? jsonRepo.map((repo) => {
+
                   return <Repository 
+
                   key={repo.id}
                   username={username}
                   name={repo.name}
@@ -123,7 +125,9 @@ export default function Result() {
                   createDate={format(repo.created_at)}
                   dateModified={format(repo.updated_at)}
                   />
-                })
+                }) : <p style={{
+                  textAlign: 'center'
+                }}>Não possui repositórios</p>
               }
             </Repositories>
             
