@@ -3,12 +3,12 @@
   flex-direction: column;
   gap: 15px;
   min-height: 16rem;
-  max-height: 26rem;
+  max-height: 22rem;
   overflow-y: auto;
 }
 
 @media (min-width: 768px) {
   .list {
-    max-height: 90rem;
+    max-height: 22rem;
   }
 }
